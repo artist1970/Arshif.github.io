@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="ARSHIF, the sage librarian of the Vervenveda educational network. Public library navigation and thoughtful research guidance.">
+<title>ARSHIF · Librarian and Keeper of Knowledge</title>
+<style>
+:root{--ink:#26352f;--cream:#f4efe3;--gold:#cbb57e;--muted:#e5dbc3}*{box-sizing:border-box}
+html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:var(--cream);font:400 17px/1.65 Nunito,Arial,sans-serif}
+a{color:inherit}a:focus-visible,button:focus-visible,textarea:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+header,footer{background:#182820;padding:20px;text-align:center}header a{text-decoration:none;font-family:Cinzel,Georgia,serif}
+main{max-width:1120px;margin:auto;padding:32px 20px 70px}
+h1,h2,h3{font-family:Cinzel,Georgia,serif;font-weight:400}
+h1{font-size:clamp(32px,6vw,56px);line-height:1.22;margin:18px 0;color:#f6ead0}
+h2{font-size:clamp(24px,4vw,33px);line-height:1.3}
+.eyebrow{letter-spacing:.16em;color:var(--gold);font-size:16px;text-transform:uppercase}
+.hero{text-align:center;padding:50px 8px 48px;border-bottom:1px solid #7c745c}
+.lead{max-width:760px;margin:18px auto;font-size:19px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:17px}
+article,.chat{border:1px solid #ab9974;border-radius:7px;background:#34443a;padding:24px}
+article h3{font-size:22px;margin-top:0}article p{min-height:86px}
+.link{display:inline-block;padding:11px 17px;background:var(--cream);color:var(--ink);border-radius:7px;text-decoration:none;font-size:16px}
+.chat{max-width:860px;margin:48px auto 0}
+label{display:block;margin:15px 0 6px}textarea{width:100%;padding:14px;border-radius:7px;font:400 17px/1.55 Nunito,Arial,sans-serif;background:#fffaf0;color:#1b2921}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin:13px 0}
+button{border:1px solid #b9a16f;border-radius:7px;min-height:44px;padding:11px 20px;cursor:pointer;font:400 16px Nunito,Arial,sans-serif;background:var(--cream);color:var(--ink)}
+button.secondary{background:var(--ink);color:var(--cream)}
+#arshif-answer{border:1px solid #867858;min-height:90px;padding:18px;border-radius:7px;background:#26352f}
+small,.note{color:#e5dbc3;font-size:16px}
+</style>
+</head>
+<body>
+<header><a href="https://vervenveda.com/">VERVE N VEDA · Return to Gateway</a></header>
+<main>
+<section class="hero" aria-labelledby="intro"><p class="eyebrow">The Sovereign Archive · Public Librarian</p>
+<h1 id="intro">ARSHIF</h1>
+<p class="lead">A sage among the shelves—sophisticated in inquiry, patient in explanation, and devoted to knowledge that can be traced to its sources.</p>
+<p>Ask not merely what is known, but how we know it. This public entrance provides research guidance and links to existing library tools. Protected collections remain separate.</p>
+</section>
+<section aria-labelledby="rooms"><h2 id="rooms" style="text-align:center">Enter the Reading Rooms</h2>
+<div class="cards">
+<article><h3>Research & Sources</h3><p>Begin with a precise question, distinguish evidence from interpretation, and preserve citations.</p><a class="link" href="#arshif-chat">Consult ARSHIF</a></article>
+<article><h3>Language & Writing Tools</h3><p>Explore the existing public ARSHIF tools without duplicating or altering the underlying collections.</p><a class="link" href="tools/index.html">Open Public Tools</a></article>
+<article><h3>Living Mentor Resources</h3><p>Discover additional public learning resources through the Creative Spark language laboratory.</p><a class="link" href="https://artist1970.github.io/creative-spark.github.io/language-laboratory/?mentor=arshif">Explore Resource Directory</a></article>
+</div></section>
+<section class="chat" id="arshif-chat" aria-labelledby="chat-title"><p class="eyebrow">The Librarian's Desk</p>
+<h2 id="chat-title">A Conversation with ARSHIF</h2>
+<p>Ask about research, catalogues, literature, historical sources, provenance, or responsible archiving. ARSHIF's public dialogue is a small curated demonstration, not access to protected archives or a live model.</p>
+<form id="arshif-chat-form"><label for="arshif-question">What would you like to discover?</label>
+<textarea id="arshif-question" maxlength="700" rows="3" placeholder="How can I tell whether a historical source is trustworthy?" required></textarea>
+<div class="actions"><button type="submit">Ask ARSHIF</button><button class="secondary" type="button" id="arshif-clear">Clear</button></div></form>
+<div role="status" aria-live="polite" aria-atomic="true" id="arshif-answer">Your next question may open a new shelf of understanding.</div>
+<p class="note">No questions are uploaded or retained by this public demonstration. Do not submit confidential records or personal information.</p>
+</section></main>
+<footer>ARSHIF · A library of questions, sources, and careful interpretation</footer>
+<script src="arshif-public-chat.js" defer></script>
+</body></html>

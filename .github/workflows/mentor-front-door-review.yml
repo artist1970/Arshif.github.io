@@ -1,0 +1,46 @@
+name: Mentor Front Door Review
+
+on:
+  pull_request:
+    paths:
+      - "index.html"
+      - "arshif-public-chat.js"
+
+      - "tests/front-door-review.test.mjs"
+      - "tests/browser-chat-smoke.mjs"
+      - ".github/workflows/mentor-front-door-review.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static-review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          node --check arshif-public-chat.js
+          node --test tests/front-door-review.test.mjs
+      - name: Install Chromium for isolated browser chat smoke
+        run: |
+          npm install --no-save --no-package-lock playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Verify front-door Q&A works without browser-local storage
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m http.server 8775 --bind 127.0.0.1 > "$RUNNER_TEMP/mentor-frontdoor-server.log" 2>&1 &
+          PID=$!
+          trap 'kill "$PID" 2>/dev/null || true' EXIT
+          for i in 1 2 3 4 5 6 7 8; do
+            if curl --fail --silent http://127.0.0.1:8775/ -o /dev/null; then break; fi
+            sleep 1
+          done
+          node tests/browser-chat-smoke.mjs

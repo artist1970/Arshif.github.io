@@ -5,7 +5,7 @@ on:
     paths:
       - "index.html"
       - "arshif-public-chat.js"
-      - ""
+
       - "tests/front-door-review.test.mjs"
       - ".github/workflows/mentor-front-door-review.yml"
   workflow_dispatch:

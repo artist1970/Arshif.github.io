@@ -1,0 +1,29 @@
+name: Mentor Front Door Review
+
+on:
+  pull_request:
+    paths:
+      - "index.html"
+      - "arshif-public-chat.js"
+      - ""
+      - "tests/front-door-review.test.mjs"
+      - ".github/workflows/mentor-front-door-review.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static-review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          node --check arshif-public-chat.js
+          node --test tests/front-door-review.test.mjs

@@ -1,9 +1,10 @@
 /* ARSHIF local public educational conversation. No storage, no network, no privileged archive access. */
 (()=>{"use strict";const form=document.getElementById("arshif-chat-form"),input=document.getElementById("arshif-question"),output=document.getElementById("arshif-answer");if(!form||!input||!output)return;
 const topics=[
-["source","A trustworthy source can be identified, dated, placed in context, and compared against independent evidence. Ask who created it, for whom, and why."],
+
 ["primary","A primary source was produced within the context being studied. It can be valuable without being impartial or complete."],
 ["secondary","A secondary source interprets earlier evidence. Evaluate the quality and diversity of its citations, rather than assuming its conclusions are automatic facts."],
+["source","A trustworthy source can be identified, dated, placed in context, and compared against independent evidence. Ask who created it, for whom, and why."],
 ["citation","Record the author, title, date, publication or collection, stable identifier and specific passage whenever available. Never invent a citation."],
 ["catalog","A catalogue describes material so it can be discovered again. Begin with title, creator, date, subject and provenance."],
 ["archive","An archive preserves records with their provenance, context and access restrictions. Public access does not imply access to every protected collection."],

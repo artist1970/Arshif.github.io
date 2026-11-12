@@ -1,0 +1,55 @@
+/* ARSHIF Mentor · Old World Archives · VNV/KA standards */
+:root{--charcoal:#202724;--night:#111a1d;--parchment:#f2ead9;--cream:#fff8e9;--gold:#d2b16f;--ink:#26322f;--radius:7px;--serif:"Cinzel",Georgia,serif;--sans:"Nunito","Brandon Grotesque","Avenir Next",Arial,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--parchment);color:var(--ink);font:400 18px/1.7 var(--sans)}
+a{color:inherit}button,textarea,select{font:inherit}button{cursor:pointer}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{width:min(1120px,calc(100% - 36px));margin:auto}
+.skip{position:fixed;top:8px;left:8px;z-index:9999;background:var(--gold);color:var(--night);padding:10px 14px;transform:translateY(-180%)}.skip:focus{transform:none}
+.hero{background:radial-gradient(circle at 50% 12%,rgba(210,177,111,.12),transparent 44%),linear-gradient(135deg,#10191b,#1a2928);color:var(--cream);min-height:max(660px,calc(100svh - 80px));display:grid;place-items:center;padding:75px 18px;text-align:center;border-bottom:3px solid var(--gold)}
+.eyebrow{font:400 18px/1.5 var(--serif);color:var(--gold);letter-spacing:.04em}
+h1,h2,h3{font-family:var(--serif);font-weight:400}
+h1{font-size:clamp(48px,8vw,66px);line-height:1.2;margin:14px 0 4px}
+.hero h2{font-size:clamp(24px,3vw,34px);color:var(--gold);margin:0 auto 20px}
+.hero p{max-width:790px;margin:16px auto;font-size:18px;line-height:1.8}
+.motto{font-style:italic;color:#e9d3a4}
+.hero-actions,.footer-nav{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:30px}
+.button,.hero-actions a,.footer-nav a,.anchor a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 18px;text-decoration:none;border:1px solid var(--gold);border-radius:7px;background:var(--charcoal);color:var(--cream);font-size:16px}
+.hero-actions a:hover,.button:hover,.anchor a:hover{background:#384b43}
+section{padding:68px 0}
+.section-title{text-align:center;max-width:830px;margin:0 auto 30px}
+.section-title h2{font-size:clamp(30px,4vw,44px);line-height:1.25;margin:6px 0 12px}
+.section-title p{font-size:18px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.card{background:#fffdf7;border:1px solid #ae9870;border-radius:7px;padding:24px;display:flex;flex-direction:column;gap:9px}
+.card h3{font-size:24px;line-height:1.35;margin:0}
+.card p{margin:0;font-size:18px;flex:1}
+.card a{align-self:flex-start}
+.kicker{color:#765927;font:400 16px/1.5 var(--serif);letter-spacing:.06em}
+#arshif-chat{background:#e4dbc8;padding-top:0;scroll-margin-top:85px}
+.anchor{position:sticky;top:0;z-index:30;background:var(--charcoal);color:var(--cream);border-block:2px solid var(--gold);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:12px max(18px,calc((100vw - 1120px)/2))}
+.anchor span{font:400 18px/1.5 var(--serif)}
+.chat-content{padding-block:46px 66px}
+.chat-box{background:#fffdf7;border:1px solid #ae9870;padding:24px;border-radius:7px;max-width:920px;margin:auto}
+.chat-box label{font-size:18px;display:block;margin:12px 0 7px}
+.chat-box textarea{width:100%;min-height:100px;padding:14px;border:1px solid #a08c67;border-radius:7px;background:white;color:#17231e;font-size:18px;resize:vertical}
+.chat-actions,.voice-controls,.prompts{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;align-items:center}
+.chat-actions button,.voice-controls button,.prompts button{min-height:44px;padding:10px 15px;border:1px solid var(--gold);background:var(--charcoal);color:var(--cream);border-radius:7px;font-size:16px}
+.chat-actions button.secondary,.voice-controls button.secondary{background:#e4dbc8;color:var(--ink);border-color:#a08c67}
+.voice-controls select{min-height:44px;padding:9px 11px;border:1px solid #a08c67;border-radius:7px;max-width:100%;font-size:16px}
+#arshif-voice-toggle[aria-pressed=true]{background:#295e47}
+.status,.disclaimer{font-size:16px;color:#405149;line-height:1.65}
+.thread{display:flex;flex-direction:column;gap:14px;max-height:480px;min-height:180px;overflow-y:auto;background:#eee7d9;border:1px solid #c1b18c;border-radius:7px;padding:18px}
+.arshif-turn{padding:15px;border:1px solid #ad9c7f;border-radius:7px;background:#fffdf8;max-width:93%;overflow-wrap:anywhere}
+.arshif-you{align-self:flex-end;background:#e6efeb}.arshif-mentor{align-self:flex-start}
+.arshif-turn strong{display:block;font:400 16px/1.5 var(--serif);color:#684f28}
+.arshif-turn p{white-space:pre-wrap;margin:5px 0 0;font-size:18px;line-height:1.65}
+.arshif-replay{border:1px solid #a08c67;border-radius:7px;background:var(--charcoal);color:var(--cream);padding:9px 12px;margin-top:10px;font-size:16px}
+.closing{background:var(--night);color:var(--cream)}
+.closing h2{color:var(--gold)}
+footer{background:var(--charcoal);color:var(--cream);text-align:center;padding:35px 16px;font-size:16px}
+.footer-nav{margin-top:15px}.footer-nav a{font-size:16px}
+@media(max-width:850px){.grid{grid-template-columns:1fr 1fr}.hero{min-height:600px}}
+@media(max-width:620px){.grid{grid-template-columns:1fr}.hero{min-height:auto;padding:70px 18px}.anchor{justify-content:center}.anchor a{width:100%}.hero-actions{flex-direction:column}.hero-actions a{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

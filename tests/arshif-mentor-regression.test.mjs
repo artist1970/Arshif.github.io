@@ -50,7 +50,7 @@ test("VNV/KA public front door keeps the live archive separate",()=>{
  assert.match(html,/vnv-header-autopopulate\.js/);
  assert.match(html,/vnv-ecosystem-toolbar\.js/);
  assert.match(html,/class="anchor"/);
- assert.match(css,/\.anchor\{position:sticky/);
+ assert.match(css,/\.anchor\{position:relative/); // Shared VNV chrome owns sticky navigation.
  assert.match(css,/--radius:7px/);
  assert.equal((html.match(/<h1\b/g)||[]).length,1);
  assert.doesNotMatch(html,/ARSHIFCore\.html|core_private\.json/);
@@ -68,4 +68,14 @@ test("documentation distinguishes mentor, live archive and private CORE",()=>{
  assert.match(doc,/vervenveda\/Arshif\.github\.io/);
  assert.match(doc,/artist1970\/CORE\/ARSHIFCore/);
  assert.doesNotMatch(doc,/React \+ Tailwind|Custodian Tier: Full access/);
+});
+
+test("VNV visual review retains symmetric layouts, prominent archive button and safe mobile controls",()=>{
+ assert.match(css,/ARSHIF aesthetic review/);
+ assert.match(css,/\.hero-actions a:nth-child\(2\)/);
+ assert.match(css,/@media\(max-width:950px\)\{\.grid\{grid-template-columns:1fr/);
+ assert.match(css,/\.footer-nav a\{background:#394741/);
+ assert.match(css,/\.voice-controls\{justify-content:center/);
+ assert.match(css,/\.anchor\{position:relative/);
+ assert.doesNotMatch(html,/fonts\.googleapis\.com|font-awesome/i);
 });

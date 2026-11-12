@@ -53,3 +53,55 @@ footer{background:var(--charcoal);color:var(--cream);text-align:center;padding:3
 @media(max-width:850px){.grid{grid-template-columns:1fr 1fr}.hero{min-height:600px}}
 @media(max-width:620px){.grid{grid-template-columns:1fr}.hero{min-height:auto;padding:70px 18px}.anchor{justify-content:center}.anchor a{width:100%}.hero-actions{flex-direction:column}.hero-actions a{width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* ARSHIF aesthetic review · 2026-11-11
+ * The official VNV header/tickers own sticky site navigation.
+ * The Reading Desk anchor remains an accessible section banner, not a second sticky header.
+ */
+:root{--radius:7px}
+body{min-width:320px;text-rendering:optimizeLegibility}
+.hero{min-height:max(620px,calc(100svh - 104px));padding-block:clamp(70px,9vh,118px)}
+.hero .wrap{display:flex;flex-direction:column;align-items:center}
+.hero .eyebrow{margin:0;color:#e6c586;max-width:800px}
+.hero h1{margin:17px 0 6px;font-size:clamp(48px,8vw,66px);letter-spacing:.035em}
+.hero h2{margin:4px 0 18px;max-width:800px}
+.hero p:not(.eyebrow){max-width:760px;line-height:1.75}
+.hero .motto{margin-block:14px 10px;font-size:18px}
+.hero-actions{max-width:830px;margin-inline:auto}
+.hero-actions a{min-width:190px;text-align:center;border-color:#d2b16f;background:#202724;transition:background .15s ease,border-color .15s ease}
+.hero-actions a:nth-child(2){background:#d2b16f;color:#17211d;border-color:#e6c586}
+.hero-actions a:nth-child(2):hover{background:#e7c891;color:#17211d}
+.section-title{margin-bottom:34px}
+.section-title h2{max-width:790px;margin-inline:auto}
+.section-title p{line-height:1.75}
+.card{min-width:0;box-shadow:0 6px 18px rgba(15,25,22,.055)}
+.card h3{color:#253b34}
+.card p{line-height:1.67}
+.card .kicker{margin:0;color:#765927}
+.card a.button{align-self:stretch;text-align:center;margin-top:13px}
+.anchor{position:relative;top:auto;z-index:1;min-height:72px}
+.anchor a{background:#394741}
+.anchor a:hover{background:#4c6254}
+.chat-content{padding-block:48px 72px}
+.chat-box{box-shadow:0 10px 27px rgba(23,31,25,.07)}
+.prompts{justify-content:center;margin-bottom:14px}
+.prompts button{text-align:center}
+.chat-actions{justify-content:center}
+.voice-controls{justify-content:center;padding:14px 12px;border-radius:7px;background:#f2ecdf;border:1px solid #c7b897}
+.voice-controls label{margin:0}
+.voice-controls select{flex:1 1 180px;max-width:320px}
+.chat-actions button,.voice-controls button,.prompts button{font-weight:400;line-height:1.5}
+.chat-actions button:focus-visible,.voice-controls button:focus-visible,.prompts button:focus-visible,.arshif-replay:focus-visible{outline:3px solid #b78532;outline-offset:3px}
+.thread{scrollbar-color:#9d885e #eee7d9}
+.arshif-turn{max-width:min(93%,720px)}
+.closing .section-title p{color:#fff8e9}
+.closing .kicker{color:#e5c788}
+.closing .card{background:#fbf7ec;color:#26322f}
+.closing .card .kicker{color:#765927}
+.closing .card a.button{color:#fff8e9;background:#202724;border-color:#ac8c4d}
+.closing .card a.button:hover{background:#384b43}
+footer{border-top:2px solid #d2b16f}
+.footer-nav a{background:#394741;border:1px solid #c3a76c}
+.footer-nav a:hover{background:#4a5f53}
+@media(max-width:950px){.grid{grid-template-columns:1fr;max-width:660px;margin-inline:auto}.hero{min-height:auto}.card{padding:25px}}
+@media(max-width:620px){body{min-width:300px}.wrap{width:min(1120px,calc(100% - 30px))}.hero{padding:74px 12px}.hero h2{font-size:clamp(24px,6vw,30px)}.section-title h2{font-size:clamp(29px,7vw,40px)}section{padding:54px 0}.anchor{padding:14px 15px}.anchor span{text-align:center}.chat-box{padding:17px}.thread{padding:12px}.arshif-turn{max-width:100%;padding:13px}.chat-actions button,.prompts button{flex:1 1 100%}.voice-controls{flex-direction:column;align-items:stretch}.voice-controls select{flex:auto;max-width:none}.footer-nav a{flex:1 1 160px}}

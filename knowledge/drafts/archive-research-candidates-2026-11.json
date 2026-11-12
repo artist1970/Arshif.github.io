@@ -1,0 +1,346 @@
+{
+  "schema": "arshif-editorial-candidates-v1",
+  "records": [
+    {
+      "id": "arshif-editorial-draft-001",
+      "topic": "source integrity",
+      "question": "How should I document an archive's uncertain creation date?",
+      "proposedAnswer": "Record the reported date and the evidence for it, distinguish estimates from verified dates, and retain any conflicting catalogue notes.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-002",
+      "topic": "provenance",
+      "question": "What can a physical ownership mark tell a researcher?",
+      "proposedAnswer": "An ownership mark may support an object's custody history, but its meaning depends on the mark's date, authenticity and context.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-003",
+      "topic": "oral histories",
+      "question": "How can an archivist respectfully handle an oral-history interview?",
+      "proposedAnswer": "Document permissions and community expectations, identify intended access restrictions, and distinguish the speaker's words from later summaries.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-004",
+      "topic": "historical context",
+      "question": "What should I do when an old source uses unfamiliar terminology?",
+      "proposedAnswer": "Preserve the original wording, explain its historical context in a separate note, and avoid silently replacing the source's meaning.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-005",
+      "topic": "cataloguing",
+      "question": "How do I create a useful record description?",
+      "proposedAnswer": "Start with a neutral title, creator if verified, date or date range, format, source identifier, subject, and access or rights information.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-006",
+      "topic": "digitization",
+      "question": "Should I keep the original scan after making a cleaner copy?",
+      "proposedAnswer": "Yes, when authorized. Keep the unmodified scan with its source metadata and label enhanced versions as derivatives.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-007",
+      "topic": "citation",
+      "question": "What is the difference between a citation and a claim of verification?",
+      "proposedAnswer": "A citation identifies where information came from. Verification additionally requires examining the evidence and assessing what it actually supports.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-008",
+      "topic": "translation",
+      "question": "How should historical translations be described?",
+      "proposedAnswer": "Identify the original language, translator, edition and date when known, and distinguish translation choices from the source's original wording.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-009",
+      "topic": "conservation",
+      "question": "What should I do if I find a fragile historical document?",
+      "proposedAnswer": "Avoid unnecessary handling and consult an appropriately qualified conservator or collecting institution before attempting repair.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-010",
+      "topic": "versions",
+      "question": "How can I distinguish a superseded record from a current one?",
+      "proposedAnswer": "Keep clear version identifiers, effective dates and a link to the superseding record without discarding the historical version.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-011",
+      "topic": "classification",
+      "question": "Can one work belong to multiple archive categories?",
+      "proposedAnswer": "Yes. Use multiple descriptive subject terms when helpful, while keeping one stable identifier for the underlying item.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-012",
+      "topic": "restitution",
+      "question": "What should a cultural collection record say about contested ownership?",
+      "proposedAnswer": "Document known custody and acquisition history, community perspectives and unresolved claims without implying disputed questions are settled.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-013",
+      "topic": "uncertainty",
+      "question": "How should an archivist describe missing evidence?",
+      "proposedAnswer": "Say which sources were checked, what remains absent and what cannot be concluded. Do not turn lack of a record into proof an event never happened.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-014",
+      "topic": "historical photographs",
+      "question": "How can I responsibly describe an unidentified photograph?",
+      "proposedAnswer": "Describe visible content without identifying people or asserting dates not established by reliable metadata; keep speculative notes separate.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-015",
+      "topic": "research ethics",
+      "question": "How should I treat restricted community knowledge?",
+      "proposedAnswer": "Respect the relevant community's access rules and cultural authority; public interest does not automatically override restrictions.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-016",
+      "topic": "bibliography",
+      "question": "How do I preserve bibliographic information for an old book?",
+      "proposedAnswer": "Capture title, author, publisher, edition and publication details when available, plus library identifiers and the copy's provenance.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-017",
+      "topic": "digital checksums",
+      "question": "What does a matching checksum show?",
+      "proposedAnswer": "A matching strong cryptographic checksum supports byte-identical digital content, but it does not by itself establish truth, rights or authorship.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-018",
+      "topic": "copyright",
+      "question": "Can I copy public-domain content without checking anything else?",
+      "proposedAnswer": "Confirm the work's status in the relevant jurisdiction and consider privacy, cultural access and repository terms separately.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-019",
+      "topic": "maps",
+      "question": "What should I check when using a historical map?",
+      "proposedAnswer": "Check its date, creator, purpose, scale and geographic conventions; historic boundaries and labels may differ from present-day ones.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "arshif-editorial-draft-020",
+      "topic": "research guides",
+      "question": "How can a research hall help a beginner?",
+      "proposedAnswer": "It can provide a clear scope, starting sources, related fields and guidance on recognizing primary records, interpretation and uncertainty.",
+      "status": "draft-public-candidate",
+      "published": false,
+      "sourceReferences": [],
+      "review": {
+        "accuracy": "pending",
+        "provenance": "pending",
+        "culturalRights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    }
+  ],
+  "note": "Unpublished candidate guidance. Human review and supporting sources required before inclusion in the live public bank."
+}

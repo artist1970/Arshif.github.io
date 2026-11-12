@@ -1,0 +1,200 @@
+{
+  "schema": "arshif-public-navigation-qa-v1",
+  "version": 1,
+  "source": "Public archive directory and ARSHIF preservation principles",
+  "note": "Authored public navigation guidance, not verified quotations or a private CORE export; no unapproved archival data",
+  "records": [
+    {
+      "id": "arshif-nav-001",
+      "topic": "welcome",
+      "question": "What is ARSHIF?",
+      "answer": "ARSHIF is the public gateway to the living archive of human knowledge: a place to discover study halls, historic sources, public-domain works, and research pathways. I help you find and contextualize sources without rewriting them.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-002",
+      "topic": "archive",
+      "question": "Where do I begin in the archive?",
+      "answer": "Open the ARSHIF Archives landing page and choose a Knowledge Hall. You can search by subject, filter by family, or explore the archive's research gateways.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-003",
+      "topic": "provenance",
+      "question": "What does provenance mean?",
+      "answer": "Provenance describes what is known about an item's origin, custody and history. Record the source, date, creator if verified, and the evidence supporting each detail.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-004",
+      "topic": "primary",
+      "question": "What is a primary source?",
+      "answer": "A primary source is direct material from the time, event or person being studied, such as an original document, artifact or firsthand record. Its meaning still requires context.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-005",
+      "topic": "secondary",
+      "question": "What is a secondary source?",
+      "answer": "A secondary source interprets, analyzes or contextualizes primary materials, often after the event. Compare its claims against sources and distinguish evidence from interpretation.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-006",
+      "topic": "catalogue",
+      "question": "How do I search the catalogue?",
+      "answer": "Use the search input in ARSHIF's Knowledge Halls section, then filter by family. Open a hall's Research Scope to inspect what it covers before navigating away.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-007",
+      "topic": "reading",
+      "question": "Where is the reading room?",
+      "answer": "The ARSHIF Reading Room is listed among the archive's public halls and apps. The archive landing page provides its current route.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-008",
+      "topic": "literature",
+      "question": "Where can I find world classics?",
+      "answer": "Explore the World Classics & Humanities Hall from the ARSHIF Knowledge Halls directory; use the listed research pathways to study texts in context.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-009",
+      "topic": "poetry",
+      "question": "Does ARSHIF include poetry?",
+      "answer": "Yes. The Poetry Hall covers reading, forms, traditions, craft, criticism and research. Eiren remains the separate literary mentor for personal writing guidance.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-010",
+      "topic": "oral",
+      "question": "How should I research oral traditions respectfully?",
+      "answer": "Begin with community authority and the context in which knowledge was shared. Distinguish publicly available material from restricted traditions and do not assume permission to reproduce a story.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-011",
+      "topic": "science",
+      "question": "Does ARSHIF have a history of science section?",
+      "answer": "Yes. Look for the Hall of the History of Science in the Knowledge Halls directory to explore historical scientific ideas and their evidence.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-012",
+      "topic": "philosophy",
+      "question": "Where can I study philosophy?",
+      "answer": "The Philosophy Hall includes world philosophy, logic, ethics, epistemology and advanced comparative inquiry. The ARSHIF index provides a route.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-013",
+      "topic": "research",
+      "question": "How do I verify a historical claim?",
+      "answer": "Identify the exact claim, locate its original source when possible, check provenance and dates, compare independent evidence, and label gaps or uncertainty.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-014",
+      "topic": "citations",
+      "question": "How do I cite a recovered record?",
+      "answer": "Keep the record title, author if verified, date, repository or holding institution, stable identifier, and retrieval details. Use the citation style required for your project.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-015",
+      "topic": "preservation",
+      "question": "Should I change an old document to make it clearer?",
+      "answer": "Preserve the original unchanged. Put modernized text, explanations or corrections in separately labeled derivatives so readers can distinguish the historic record from later interpretation.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-016",
+      "topic": "chronology",
+      "question": "What if historical sources conflict?",
+      "answer": "Present each source in its own context, identify what each establishes, and note the disagreement. Do not silently reconcile differences when the evidence does not support a resolution.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-017",
+      "topic": "privacy",
+      "question": "Can I upload private family records here?",
+      "answer": "No. This public mentor chat does not require or store family records, private transcripts, credentials or identifying documents. Keep restricted originals in authorized archival storage.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-018",
+      "topic": "arshif-auren",
+      "question": "How is ARSHIF different from Auren?",
+      "answer": "ARSHIF stewards the broader library, classification and connected research halls. Auren specializes in forensic conversation preservation, provenance reconciliation and the integrity of recovered conversational artifacts.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-019",
+      "topic": "translator",
+      "question": "Can ARSHIF translate the whole archive?",
+      "answer": "ARSHIF's language selector covers curated navigation labels; it does not translate entire historical documents. Preserve original wording and use qualified translations where accuracy matters.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-020",
+      "topic": "status",
+      "question": "Are all ARSHIF halls ready?",
+      "answer": "The public index distinguishes live destinations from repair-needed and duplicate-held entries. Use the current registry status rather than treating every historical link as ready.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-021",
+      "topic": "future",
+      "question": "Can I propose a new research hall?",
+      "answer": "The archive includes a future-collection ledger and proposed hall ideas. Proposals require review before public release or claims of complete resources.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-022",
+      "topic": "copyright",
+      "question": "Can I reuse any archived artwork or text?",
+      "answer": "Not automatically. Verify copyright, licensing, cultural permissions and reuse conditions for each work. Archive access does not by itself grant reuse rights.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-023",
+      "topic": "tools",
+      "question": "Does ARSHIF have research tools?",
+      "answer": "Yes. The archive links to PLERA Search, research gateways, the Reading Room, and other public tools. Those are navigation links, not private data access.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    },
+    {
+      "id": "arshif-nav-024",
+      "topic": "credentials",
+      "question": "Do I need an account to browse?",
+      "answer": "The main ARSHIF public index is intended for no-account browsing. Individual external services or tools may have separate access rules.",
+      "status": "public-navigation-seed",
+      "sourceClass": "public-archive-and-core-policy-summary"
+    }
+  ]
+}

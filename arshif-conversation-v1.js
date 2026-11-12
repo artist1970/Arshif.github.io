@@ -70,6 +70,8 @@ function respond(q){
  if(!s)return "You may ask about provenance, archives, source history, a research hall or the public directory.";
  if(sensitive.test(raw))return "Please do not enter private records, credentials or identifying information here. I can explain preservation methods but cannot open your restricted archives.";
  if(crisis.test(raw))return "This public archive guide cannot provide emergency care. If someone is in immediate danger, contact local emergency services or a trusted person nearby.";
+ const language=window.CreativeSparkLanguageRequest?.answer(raw,{mentorId:"arshif"});
+ if(language)return language;
  if(["hi","hello","hey","good morning","good evening"].includes(s))return "Welcome. What would you like to preserve, research, classify or trace today?";
  const item=lookup(raw);
  if(item){lastTopic=item.topic;return item.answer+"\n\nSource context: "+sourceLine;}

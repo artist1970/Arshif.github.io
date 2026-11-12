@@ -55,3 +55,17 @@ test("VNV/KA public front door keeps the live archive separate",()=>{
  assert.equal((html.match(/<h1\b/g)||[]).length,1);
  assert.doesNotMatch(html,/ARSHIFCore\.html|core_private\.json/);
 });
+
+test("unapproved archive research candidates are never in the published orientation bank",()=>{
+ const draft=JSON.parse(read("knowledge/drafts/archive-research-candidates-2026-11.json"));
+ assert.equal(draft.records.length,20);
+ assert.ok(draft.records.every(x=>x.status==="draft-public-candidate"&&!x.published));
+ assert.doesNotMatch(html,/archive-research-candidates-2026-11\.json/);
+ assert.doesNotMatch(script,/archive-research-candidates-2026-11\.json/);
+});
+test("documentation distinguishes mentor, live archive and private CORE",()=>{
+ const doc=read("readme.md");
+ assert.match(doc,/vervenveda\/Arshif\.github\.io/);
+ assert.match(doc,/artist1970\/CORE\/ARSHIFCore/);
+ assert.doesNotMatch(doc,/React \+ Tailwind|Custodian Tier: Full access/);
+});

@@ -1,0 +1,34 @@
+name: ARSHIF Public Mentor Regression
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'arshif-conversation-v1.js'
+      - 'creative-spark-mentor-qa-v1.js'
+      - 'knowledge/public-navigation-qa.v1.json'
+      - 'styles/arshif-mentor-v1.css'
+      - 'tests/arshif-mentor-regression.test.mjs'
+      - '.github/workflows/arshif-public-mentor.yml'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'arshif-conversation-v1.js'
+      - 'creative-spark-mentor-qa-v1.js'
+      - 'knowledge/public-navigation-qa.v1.json'
+      - 'styles/arshif-mentor-v1.css'
+      - 'tests/arshif-mentor-regression.test.mjs'
+      - '.github/workflows/arshif-public-mentor.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-mentor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate public archivist boundaries and knowledge
+        run: node --test tests/arshif-mentor-regression.test.mjs
